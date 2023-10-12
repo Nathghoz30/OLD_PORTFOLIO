@@ -1,0 +1,115 @@
+/*Mettre un '.' pour avant une classe */
+.grand-title{
+    letter-spacing: 20px;
+    color: red;
+}
+
+.petit-title{
+    color: rgba(255, 102, 0, 0.849);
+    letter-spacing: 4px;
+}
+ .title {
+     letter-spacing: 6px;
+     color: darkblue;
+
+ }
+
+
+.center{
+    text-align: center;
+}
+
+.p-pres{
+    letter-spacing: 3px;
+    font-size: large;
+}
+
+.contenu {
+    margin-left: 250px;
+    margin-right: 250px;
+}
+
+.menu{
+    font-size: x-large;
+}
+
+.marge-top{
+    margin-top: 50px;
+}
+
+.pipe{
+    /*color: gold;*/
+    color: turquoise;
+    letter-spacing: 3px;
+    /*box-shadow: 0 15px 35px rgba(0, 0, 0, 0.30);*/
+}
+
+a{
+    color: steelblue;
+}
+
+a:hover{
+    color:green;
+}
+
+.head-table-user{
+    color: red;
+    background-color: lightgray;
+
+}
+
+.btn{
+    color: lightgray;
+    background-color: steelblue;
+}
+
+.btn:hover{
+    color: tomato;
+}
+
+.my-label{
+    color: darkgreen;
+    letter-spacing: 3px;
+}
+
+.content-login{
+    margin: auto;
+    width: 40%;
+}
+
+.shadow-card{
+    box-shadow: 0 15px 35px rgba(31, 50, 216, 0.3);
+}
+
+.card-title-perso{
+    color: white;
+}
+
+.card-header-back{
+    background-color: rgb(34, 22, 23) !important;
+
+}
+
+.p-contenu {
+    margin-left: 300px;
+    margin-right: 200px;
+}
+
+.gras-ital {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.gras {
+    font-weight: bold;
+}
+
+.justify {
+    justify-content: center;
+}
+
+
+hr {
+    border: none;
+    border-top: 3px double #333;
+}

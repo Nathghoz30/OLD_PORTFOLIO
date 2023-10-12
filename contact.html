@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Contact</title>
+</head>
+
+<body>
+
+    <ul class="nav nav-tabs">
+        <a class="navbar-brand top" href="index.html">
+            <img style="border-radius: 30px;" src="images/logo.JPG" width="40" height="40" alt="">
+        </a>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Accueil</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Port-Folio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="competences.html">Compétences</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+    </ul>
+
+    <br>
+
+
+    <div class="center image">
+        <img src="images/fonds2.jpg" class="rounded" width="630" height="354" alt="fonds">
+    </div>
+
+    <br><br>
+
+    <br><br>
+    <h1 class="petit-title">Me contacter</h1><br>
+    <div class="row">
+        <div class="col-sm-6">
+
+            <ul>
+
+                <i class="bi bi-geo-alt-fill"></i> 49 Boulevard des Pyrénées,<br> Gagny, 93220 <br><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.217459143758!2d2.5371842158538813!3d48.87313090762238!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e612229176744f%3A0xd2c1f7b5f454cc8f!2s49%20Boulevard%20des%20Pyr%C3%A9n%C3%A9es%2C%2093220%20Gagny!5e0!3m2!1sfr!2sfr!4v1613572463006!5m2!1sfr!2sfr" width="200" height="200" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe><br><br>
+
+                <i class="bi bi-telephone-fill"></i> <a href="tel:+33601780837">06.01.78.08.37 </a><br><br>
+
+                <i class="bi bi-envelope-fill"></i> <a href="mailto:nathghoz30@gmail.com?subject=Contact"> nathghoz30@gmail.com</a> <br><br>
+
+            </ul>
+        </div>
+
+        <div class="col-sm-4">
+
+            <form action="mailto:nathghoz30@gmail.com?subject=Contact" name="envoi" method=POST enctype="text/plain">
+
+                <div>
+                    <div class="mb-3">
+                        <label for="Nom" class="my-label">Nom</label>
+                        <input name="Nom" type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="Prenom" class="my-label">Prenom</label>
+                        <input name="Prenom" type="text" class="form-control">
+                    </div>
+                    <div class="mb-3">
+                        <label for="message" class="my-label">Message</label><br>
+                        <textarea class="rounded" name="Message" cols="55" rows="5"></textarea>
+                    </div>
+                
+                <input class="btn btn-outline-success" type="submit" value="Envoyer">
+                <input class="btn btn-outline-danger" type="reset" value="Effacer">
+
+            </form>
+        </div>
+
+    </div>
+
+    <br>
+
+    <footer class="bg-secondary text-center text-lg-start">
+
+        <div class="text-center p-3" style="background-color: rgba(255, 255, 255, 0.308);">
+            © 2021 Copyright: Ghozlan Nathan | Tous droits réservés
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
